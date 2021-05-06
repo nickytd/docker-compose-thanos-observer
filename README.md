@@ -1,5 +1,5 @@
 # thanos-observer
-A docker-compose based environment to setup a thanos stack observing a remote cluster
+A docker-compose based environment to setup a thanos stack observing a remote cluster.
 It provisions following containers:
 * grafana
 * promtheus datasource linked to thanos query frontend
