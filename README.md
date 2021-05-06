@@ -10,3 +10,5 @@ It provisions following containers:
 ![Cross Cluster Observability with Thanos](images/observability-thanos.jpg)
 
 Here is an example [kubernetes-monitoring](https://github.com/nickytd/kubernetes-monitoring) for exposing k8s Thanos Query StoreAPI endpoint 
+
+The gRPC traffic depends on mTLS. To make a successful client authentication create a client certificate and place it in ssl folder. Check the [docker-compose.yaml](docker-compose.yaml) for the expected files under the thanos_query_frontend service definition. 
